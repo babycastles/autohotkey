@@ -20,12 +20,17 @@ By adding a Windows shortcut to an AutoHotkey script in the Windows Startup fold
 0. Modify runner.ahk to fit your particular needs
 0. Make a shortcut to runner.ahk in the startup folder
 
+### TODOS
 
-Define command vs function
+0. Explain each of the util scripts in detail (and batch file)
+0. Define command vs function
+0. Explain run command - https://www.autohotkey.com/docs/commands/Run.htm
+0. Explain process command  - can be used to close a target process (by PID or name) - https://www.autohotkey.com/docs/commands/Process.htm
 
-Run command - https://www.autohotkey.com/docs/commands/Run.htm
+#### Explain 
+omit a parameter by adding a comma
 
-omit a parameter by adding a command
+Explain options for run 
 
 Options
 
@@ -35,11 +40,10 @@ Min: launch minimized
 
 Hide: launch hidden (cannot be used in combination with either of the above)
 
-
-process command can be used to close a target process (by PID or name) - https://www.autohotkey.com/docs/commands/Process.htm
-
+Explain 
 ExitApp
 
+Explain
 ORDERING - https://www.autohotkey.com/docs/Scripts.htm
 The Top of the Script (the Auto-execute Section)
 
