@@ -1,19 +1,50 @@
 # autohotkey
 Babycastles' autohotkey script repository
 
+## What is AutoHotkey?
+AutoHotkey is a free, open-source scripting language to automate processes in Windows.
 
-Process and run commands
+AutoHotkey's focus is on keyboard shortcuts, hotkeys and macros.
 
-subcommands and running min, running max, closing
-runwait
-run in min
-joytokey
-OnExit
-return in a function
+Babycastles uses AutoHotkey to turn computers into arcade machines, by doing things like:
+* Hiding the system cursor
+* Hiding the taskbar
+* Running a game
+* Running JoyToKey
+* Mapping all of these things to the middle mouse button
 
-Functions vs commands
+By adding a Windows shortcut to an AutoHotkey script in the Windows Startup folder, the AutoHotkey script can run when the computer turns on.
+
+## Using AutoHotkey
+![download_screenshot](/screenshots/download.png?raw=true)
+0. Click **Clone or download** on this repo and choose **Download ZIP**
+0. Unzip the contents into the game folder
+0. Modify runner.ahk to fit your particular needs
+0. Make a shortcut to runner.ahk in the startup folder
+
+
+Define command vs function
+
+Run command - https://www.autohotkey.com/docs/commands/Run.htm
+
+omit a parameter by adding a command
+
+Options
+
+Max: launch maximized
+
+Min: launch minimized
+
+Hide: launch hidden (cannot be used in combination with either of the above)
+
+
+process command can be used to close a target process (by PID or name) - https://www.autohotkey.com/docs/commands/Process.htm
 
 ExitApp
+
+ORDERING - https://www.autohotkey.com/docs/Scripts.htm
 The Top of the Script (the Auto-execute Section)
-After the script has been loaded, it begins executing at the top line, continuing until a Return, Exit, hotkey/hotstring label, or the physical end of the script is encountered (whichever comes first). 
+
+After the script has been loaded, it begins executing at the top line, continuing until 
+	a Return, Exit, hotkey/hotstring label, or the physical end of the script is encountered (whichever comes first). 
 This top portion of the script is referred to as the auto-execute section.
