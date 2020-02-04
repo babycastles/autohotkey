@@ -1,7 +1,4 @@
-# autohotkey
-Babycastles' autohotkey script repository
-
-## What is AutoHotkey?
+# What is AutoHotkey?
 AutoHotkey is a free, open-source scripting language to automate processes in Windows.
 
 AutoHotkey's focus is on keyboard shortcuts, hotkeys and macros.
@@ -17,6 +14,7 @@ By adding a Windows shortcut to an AutoHotkey script in the Windows Startup fold
 
 ## Using AutoHotkey
 ![download_screenshot](/screenshots/download.png?raw=true)
+
 0. Click **Clone or download** on this repo and choose **Download ZIP**
 0. Unzip the contents into the game folder
 0. Modify runner.ahk to fit your particular needs
