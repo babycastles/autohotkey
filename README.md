@@ -10,7 +10,7 @@ Babycastles uses AutoHotkey to turn computers into arcade machines, by doing thi
 * Running JoyToKey
 * Mapping all of these things to the middle mouse button
 
-By adding a Windows shortcut to an AutoHotkey script in the Windows Startup folder, the AutoHotkey script can run when the computer turns on.
+By adding an AutoHotkey script to the Windows Startup folder, the AutoHotkey script can run when the computer turns on.
 
 ## Using AutoHotkey
 ![download_screenshot](/screenshots/download.png?raw=true)
