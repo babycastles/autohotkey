@@ -1,7 +1,7 @@
 ; Press Win-A to Reload Autohotkey
 #a::Reload
 
-; Press Win-T to toggle the tray
+; Press Win-T to toggle the tray, if script is imported
 if (IsFunc("TaskBarToggle")) {
 	#t::TaskBarToggle()
 }
