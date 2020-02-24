@@ -18,15 +18,16 @@ By adding an AutoHotkey script to the Windows Startup folder, the AutoHotkey scr
 0. Click **Clone or download** on this repo and choose **Download ZIP**
 0. Unzip the contents by right-clicking the downloaded zip and selecting **Extract All...**
 0. Move the contents of the folder into the folder of your game
-0. Modify runner.ahk to fit your particular needs
+0. Modify runner.ahk to fit your particular needs ([see the Building your script section ](#building-your-script) 
+
+### If you want your game/autohotkey script to run on startup (you probably do!), then do this...
 0. Press the Windows logo key  **+ R**, type `shell:startup`, then select OK. The startup folder opens.
 0. Create a shortcut to **runner.ahk** in the startup folder
    1. Right-click and hold **runner.ahk**
    2. While still holding the right-click, drag the file into the startup folder
    3. Release the right-click and select **Create shortcuts here**
 
-
-### TODOS
+### Building your script
 
 0. Explain each of the util scripts in detail (and batch file)
 0. Define command vs function
