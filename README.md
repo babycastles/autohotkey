@@ -21,7 +21,7 @@ By adding an AutoHotkey script to the Windows Startup folder, the AutoHotkey scr
 0. Modify runner.ahk to fit your particular needs [(see the Building your script section)](#building-your-script) 
 
 ### If you want your game/autohotkey script to run on startup (you probably do!), then do this...
-0. Press the Windows logo key  **+ R**, type `shell:startup`, then select OK. The startup folder opens.
+0. Press the Windows logo key **+ R**, type `shell:startup`, then select OK. The startup folder opens.
 0. Create a shortcut to **runner.ahk** in the startup folder
    1. Right-click and hold **runner.ahk**
    2. While still holding the right-click, drag the file into the startup folder
@@ -37,6 +37,7 @@ For most use cases, you can just modify the `Refresh` method to run your game.
 0. Replace **MyGame.exe** in `Run	"MyGame.exe"` with the name of your game file
 
 Running this script will:
+
 0. Close and quit all open programs and folders
 0. Hide the system cursor
 0. Hide the taskbar
@@ -45,7 +46,17 @@ Running this script will:
 
 ### Hotkeys
 
+The [utils/hotkeys.ahk file](./utils/hotkeys.ahk) is where we define hotkeys/shortcuts to perform certain tasks.
 
+Defaults are:
+* Windows logo key **+ A**
+   * Reloads the AutoHotKey script
+* Windows logo key **+ T**
+   * Toggles the taskbar
+* Windows logo key **+ C**
+   * Toggles the cursor
+* Windows logo key **+ Z**
+   * Quits AutoHotKey script and runs the ExitFunction 
 
 ### TODO/explain
 
