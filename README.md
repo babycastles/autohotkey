@@ -16,9 +16,15 @@ By adding an AutoHotkey script to the Windows Startup folder, the AutoHotkey scr
 ![download_screenshot](/screenshots/download.png?raw=true)
 
 0. Click **Clone or download** on this repo and choose **Download ZIP**
-0. Unzip the contents into the game folder
+0. Unzip the contents by right-clicking the downloaded zip and selecting **Extract All...**
+0. Move the contents of the folder into the folder of your game
 0. Modify runner.ahk to fit your particular needs
-0. Make a shortcut to runner.ahk in the startup folder
+0. Press the Windows logo key  **+ R**, type `shell:startup`, then select OK. The startup folder opens.
+0. Create a shortcut to **runner.ahk** in the startup folder
+	0. Right-click and hold **runner.ahk**
+	0. While still holding the right-click, drag the file into the startup folder
+	0. Release the right-click and select **Create shortcuts here**
+
 
 ### TODOS
 
