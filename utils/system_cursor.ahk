@@ -20,7 +20,7 @@ SystemCursor(OnOff=1)   ; INIT = "I","Init"; OFF = 0,"Off"; TOGGLE = -1,"T","Tog
                 , "int",32, "int",32, "uint",&AndMask, "uint",&XorMask )
         }
     }
-    if (OnOff = 0 or OnOff = "Init" or OnOff = "I" or $ = "" OnOff = "Off" or $ = "h" and (OnOff < 0 or OnOff = "Toggle" or OnOff = "T"))
+    if (OnOff = 0 or OnOff = "Init" or OnOff = "I" or $ = "" or OnOff = "Off" or $ = "h" and (OnOff < 0 or OnOff = "Toggle" or OnOff = "T"))
         $ = b  ; use blank cursors
     else
         $ = h  ; use the saved cursors

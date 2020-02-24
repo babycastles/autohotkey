@@ -17,8 +17,8 @@ By adding an AutoHotkey script to the Windows Startup folder, the AutoHotkey scr
 
 0. Click **Clone or download** on this repo and choose **Download ZIP**
 0. Unzip the contents by right-clicking the downloaded zip and selecting **Extract All...**
-0. Move the contents of the folder into the folder of your game
-0. Modify runner.ahk to fit your particular needs ([see the Building your script section ](#building-your-script) 
+0. Move the contents of the unzipped folder into the folder of your game
+0. Modify runner.ahk to fit your particular needs [(see the Building your script section)](#building-your-script) 
 
 ### If you want your game/autohotkey script to run on startup (you probably do!), then do this...
 0. Press the Windows logo key  **+ R**, type `shell:startup`, then select OK. The startup folder opens.
@@ -28,6 +28,26 @@ By adding an AutoHotkey script to the Windows Startup folder, the AutoHotkey scr
    3. Release the right-click and select **Create shortcuts here**
 
 ### Building your script
+
+0. Open **runner.ahk** in a text editor (Right-click and **Open With** Notepad++ or Notepad)
+
+For most use cases, you can just modify the `Refresh` method to run your game.
+![refresh-example](/screenshots/refresh-example.png?raw=true)
+
+0. Replace **MyGame.exe** in `Run	"MyGame.exe"` with the name of your game file
+
+Running this script will:
+0. Close and quit all open programs and folders
+0. Hide the system cursor
+0. Hide the taskbar
+0. Run the specified game/executable
+0. Enable the hotkeys specified in [utils/hotkeys.ahk](./utils/hotkeys.ahk) - [see the Hotkeys section](#hotkeys) 
+
+### Hotkeys
+
+
+
+### TODO/explain
 
 0. Explain each of the util scripts in detail (and batch file)
 0. Define command vs function

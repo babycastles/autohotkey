@@ -15,6 +15,13 @@ MButton::Refresh()
 ; Define your functions here
 Refresh()
 {
-	Run "utils/kill.bat"
-	HideTaskBar() 
+	; Kill all open windows/programs
+	RunWait "utils/kill.bat"
+	; Hide the cursor
+	SystemCursor("Off")
+	; Hide the taskbar
+	HideTaskBar()
+	
+	; Run game - ADD YOUR GAME HERE!
+	Run	"MyGame.exe"
 }
