@@ -42,6 +42,7 @@ Running this script will:
 0. Hide the system cursor
 0. Hide the taskbar
 0. Run the specified game/executable
+0. Maps the Middle Mouse button to do all of the above steps
 0. Enable the hotkeys specified in [utils/hotkeys.ahk](./utils/hotkeys.ahk) - [see the Hotkeys section](#hotkeys) 
 
 ### Hotkeys
