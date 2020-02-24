@@ -21,9 +21,9 @@ By adding an AutoHotkey script to the Windows Startup folder, the AutoHotkey scr
 0. Modify runner.ahk to fit your particular needs
 0. Press the Windows logo key  **+ R**, type `shell:startup`, then select OK. The startup folder opens.
 0. Create a shortcut to **runner.ahk** in the startup folder
-	0. Right-click and hold **runner.ahk**
-	0. While still holding the right-click, drag the file into the startup folder
-	0. Release the right-click and select **Create shortcuts here**
+    0. Right-click and hold **runner.ahk**
+    0. While still holding the right-click, drag the file into the startup folder
+    0. Release the right-click and select **Create shortcuts here**
 
 
 ### TODOS
